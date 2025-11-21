@@ -18,15 +18,18 @@
         .publish-img{display: block;max-width: 100%;}
         .flex-row{flex-wrap: wrap;justify-content: space-between;align-items: center;}
         .font{font-family: 'Times New Roman', Times, serif;color: #ffffff;font-weight: bold;font-size: 45px;}
+        .fontDarkBlue{font-family: 'Times New Roman', Times, serif;color: #061832;font-weight: bold;font-size: 45px;}
         .DarkBlue{background-color: #061832;}
         .paddingTwo{padding: 20px;}
-        .paddingOne{padding: 10px 0px;}
+        .paddingOne{padding: 10px;}
         .CenterContent{justify-content: center;}
         .logoMark{max-width: 120px}
         .navMenu{display: flex;}
         .navItemMenu{list-style: none;padding: 0 16px;}
         .navItemLink{font-family: 'Times New Roman', Times, serif;font-size: 18px;}
         .MenuMobile{display: none;}
+        .margin-auto{margin: 0 auto;}
+        .formCp{display: block;width: 100%;height: auto; padding: 15px;border-radius: 5px;font-family: 'Times New Roman', Times, serif;font-size: 18px;}
 
         @media (max-width: 1024px){
             .d-flex-container-2{
@@ -64,59 +67,42 @@
 
 </header>
 
-<div class=" d-flex column-xl-12 DarkBlue CenterContent"><h1 class="font paddingTwo">Conheça a nossa linha de soluções domesticas para o seu dia a dia</h1></div>    
-
 <div class="d-flex-container d-flex-container-md flex-row">
 
-        <section class="column-xl-3 column-md-6 column-sm-12">
+ <div class="column-xl-8 margin-auto">
+    <div class=" d-flex column-xl-12 CenterContent"><h1 class="fontDarkBlue">Entre em contato e conheça nossa linha de facilidades</h1></div>    
 
-        <div class="card-publish">
-            <img src="img/u.asadobrasil.png"  class="publish-img">
-        </div>
+<form class="d-flex flex-row">
+    <div class="column-xl-6 paddingOne">
+        <label>Nome:</label>
+        <input type="name" placeholder="Digite o seu nome.: " class="formCp">
+    </div>
 
-    </section>
+    <div class="column-xl-6 paddingOne">
+        <label>Sobrenome:</label>
+        <input type="name" placeholder="Digite o seu nome.: " class="formCp">
+    </div>
 
-    
-        <section class="column-xl-3 column-md-6 column-sm-12">
+    <div class="column-xl-12 paddingOne">
+        <label>Endereço de e-mail:</label>
+        <input type="name" placeholder="Digite o seu nome.: " class="formCp">
+    </div>
 
-        <div class="card-publish">
-            <img src="img/f.asadobrasil.png"  class="publish-img">
-        </div>
+    <div class="column-xl-12 paddingOne">
+        <label>Contato</label>
+        <input type="name" placeholder="Digite o seu nome.: " class="formCp">
+    </div>
 
-    </section>
+    <div class="column-xl-12 paddingOne">
+        <label>Mensagem</label>
+        <textarea type="name" placeholder="Digite o seu nome.: " class="formText">
+    </div>
 
-    <section class="column-xl-3 column-md-6 column-sm-12">
-
-        <div class="card-publish">
-            <img src="img/c.asadobrasil.png"  class="publish-img">
-        </div>
-
-    </section>
-
-        <section class="column-xl-3 column-md-6 column-sm-12">
-
-        <div class="card-publish">
-            <img src="img/h.asadobrasil.png"  class="publish-img">
-        </div>
-
-    </section>
+</form>
 
 
-</div>
 
-<div class="d-flex flex-row">
-<div class=" d-flex column-xl-12 DarkBlue CenterContent"><h1 class="font paddingTwo">Presente nos melhores varejos do Brasil</h1></div> 
-
-    <section class="column-xl-6 column-md-6 column-sm-12">
-
-	
-
-    </section>
-
-    <section class="column-xl-6 column-md-6 column-sm-12">
-
-
-    </section>
+ </div>
 
 </div>
 
